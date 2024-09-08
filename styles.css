@@ -1,0 +1,33 @@
+.text-shadow-light-blue {
+    text-shadow:0px 0px 1px rgba(200, 200, 200, 0.8); /* pink shadow */
+}
+.text-shadow-black{
+    text-shadow:0px 0px 1px black;
+}
+.text-shadow-white{
+    text-shadow:0px 0px 1px white; 
+}
+.transform {
+    transform: translateX(0);
+  }
+  
+  .-translate-x-full {
+    transform: translateX(-100%);
+  }
+  #sideMenu {
+    transition: transform 0.5s ease-in-out;
+}
+#sun-icon {
+    filter: invert(0) brightness(1);
+}
+
+/* Sun icon color in dark mode */
+.dark #sun-icon {
+    filter: invert(1) brightness(1) contrast(0); /* Increase brightness and contrast */
+}
+.text-shadow-custom{
+      text-shadow: 0px 0px 4px rgba(50, 0, 50, 0.6); /* Dark pinkish shadow */
+}
+.font-jenna-sue{
+    font-family: 'Jenna Sue', cursive; 
+}
